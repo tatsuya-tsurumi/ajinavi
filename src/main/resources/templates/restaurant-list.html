@@ -14,6 +14,7 @@
 		【店舗名】(部分一致)<br>
 		<input type="text" th:field="*{restaurantName}"><br>
 		<br>
+		空白のまま検索すると全件表示されます
 		<input type="submit" value="検索" class="btn">
 	</form>
 	<div th:if="${restaurantList}" !=null>
